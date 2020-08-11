@@ -21,7 +21,7 @@ namespace Sound_Space_Editor
 			Ms = ms;
 		}
 
-		public Note Clone()
+		public Note Clone(0.5)
 		{
 			return new Note(X, Y, Ms) { Color = Color };
 		}
